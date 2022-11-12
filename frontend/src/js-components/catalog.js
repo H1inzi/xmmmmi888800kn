@@ -1,6 +1,16 @@
 import StandardProductCard from "./standard-product-card";
-import bowl from "../media/images/bowl.png"
 import React from 'react';
+
+import vaza15x30 from '../media/images/vaza15x30.png';
+import ceramics_jug_15x20 from '../media/images/ceramic-jug-15x20.png';
+import ceramics_bowl from '../media/images/ceramics-bowl.png';
+import ceramics_vase_20x30 from '../media/images/ceramics-vase-20x30.png';
+import teaport_1000ml from '../media/images/teaport-1000ml.png';
+import wood_bowl_20 from '../media/images/wood-bowl-20.png';
+import wood_bowl_30 from '../media/images/wood-bowl-30.png';
+import black_wood_bowl_30cm from '../media/images/black-wood-bowl-30cm.jpg';
+import wood_rolling_pin_30cm from '../media/images/wood-rolling-pin-30cm.jpg';
+import wood_tenderizer_30cm from '../media/images/wood-tenderizer-30cm.jpg'
 
 class Catalog extends React.Component {
     constructor() {
@@ -74,44 +84,49 @@ class Catalog extends React.Component {
                     <div className="spc-items__wrapper">
                         {this.SPCGen([
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Ваза деревянная 15х30"
+                                price="400"
+                                imgSrc={vaza15x30}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Кувшин керамический 15х20"
+                                price="800"
+                                imgSrc={ceramics_jug_15x20}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Ваза керамическая 20х30"
+                                price="2000"
+                                imgSrc={ceramics_vase_20x30}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Заварочный чайник керамический 1000 мл"
+                                price="3000"
+                                imgSrc={teaport_1000ml}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Тарелка деревянная 20см"
+                                price="400"
+                                imgSrc={wood_bowl_20}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Тарелка деревянная 30см"
+                                price="600"
+                                imgSrc={wood_bowl_30}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Тарелка 30см"
+                                price="700"
+                                imgSrc={black_wood_bowl_30cm}
                             />,
                             <StandardProductCard 
-                                title="Керамическая тарелка 50х50х25"
-                                price="9999"
-                                imgSrc={bowl}
+                                title="Скалка деревянная 30см"
+                                price="300"
+                                imgSrc={wood_rolling_pin_30cm}
+                            />,
+                            <StandardProductCard 
+                                title="Молоток для отбивания мяса (Тендерайзер) 30см"
+                                price="400"
+                                imgSrc={wood_tenderizer_30cm}
                             />
                         ])}
                     </div>

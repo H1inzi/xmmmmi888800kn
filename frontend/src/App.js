@@ -83,6 +83,13 @@ class App extends React.Component {
             <Catalog />
           </div>
         </div>
+        <footer className="footer">
+          <div className="wrapper footer-block">
+            <div className="footer-btext">
+              © AVepir, 2022
+            </div>
+          </div>
+        </footer>
     </div>
     )
   }

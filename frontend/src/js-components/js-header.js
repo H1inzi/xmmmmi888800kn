@@ -1,4 +1,5 @@
 import HeaderLogo from '../media/header-logo.svg';
+import headerLogo from '../media/logo.png'
 import React from 'react'
 export default class Header extends React.Component {
   constructor() {
@@ -30,7 +31,7 @@ export default class Header extends React.Component {
           <div className="left-header">
             <a href="/" className="header_logo" aria-label="Главная" title="Главная">
               <img className="img-hl"
-                src={HeaderLogo}
+                src={headerLogo}
               />
             </a>
             <div className="catalog-container">
